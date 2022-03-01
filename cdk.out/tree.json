@@ -2458,7 +2458,7 @@
                                 "Arn"
                               ]
                             },
-                            "runtime": "nodejs10.x"
+                            "runtime": "nodejs12.x"
                           }
                         }
                       },
@@ -2497,7 +2497,7 @@
                             },
                             "functionVersion": {
                               "Fn::GetAtt": [
-                                "HandlerCurrentVersion93FB80BFd49e1598584696a788b74c7967cbdf75",
+                                "HandlerCurrentVersion93FB80BF4e1059050279d35e3d3b3700ddddd2d8",
                                 "Version"
                               ]
                             },
@@ -3164,7 +3164,7 @@
                                 "Arn"
                               ]
                             },
-                            "runtime": "nodejs10.x"
+                            "runtime": "nodejs12.x"
                           }
                         }
                       },
@@ -3203,7 +3203,7 @@
                             },
                             "functionVersion": {
                               "Fn::GetAtt": [
-                                "HandlerCurrentVersion93FB80BF281386ff6a38687f975f8b5fd35f53ec",
+                                "HandlerCurrentVersion93FB80BF667352871c4be52a77f32f3532e17488",
                                 "Version"
                               ]
                             },
