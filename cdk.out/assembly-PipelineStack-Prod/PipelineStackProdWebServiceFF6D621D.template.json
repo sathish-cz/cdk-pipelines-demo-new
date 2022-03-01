@@ -82,7 +82,7 @@
             "Arn"
           ]
         },
-        "Runtime": "nodejs12.x"
+        "Runtime": "nodejs10.x"
       },
       "DependsOn": [
         "HandlerServiceRoleFCDC14AE"
@@ -93,7 +93,7 @@
         "aws:asset:property": "Code"
       }
     },
-    "HandlerCurrentVersion93FB80BF667352871c4be52a77f32f3532e17488": {
+    "HandlerCurrentVersion93FB80BF281386ff6a38687f975f8b5fd35f53ec": {
       "Type": "AWS::Lambda::Version",
       "Properties": {
         "FunctionName": {
@@ -112,7 +112,7 @@
         },
         "FunctionVersion": {
           "Fn::GetAtt": [
-            "HandlerCurrentVersion93FB80BF667352871c4be52a77f32f3532e17488",
+            "HandlerCurrentVersion93FB80BF281386ff6a38687f975f8b5fd35f53ec",
             "Version"
           ]
         },

@@ -15,7 +15,7 @@
         "templateFile": "PipelineStackProdWebServiceFF6D621D.template.json",
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/83af76d886a4501ee0c8226b48365f110dc1330b67d56fa9f37a7d4ac06065d5",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/966d3bc46f0228dde232a8e1f1894c508fb22343355278e08032d81491a13542",
         "requiresBootstrapStackVersion": 4,
         "stackName": "Prod-WebService"
       },
@@ -189,7 +189,7 @@
         "/PipelineStack/Prod/WebService/Handler/CurrentVersion/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "HandlerCurrentVersion93FB80BF667352871c4be52a77f32f3532e17488",
+            "data": "HandlerCurrentVersion93FB80BF281386ff6a38687f975f8b5fd35f53ec",
             "trace": [
               "new Version (/home/ec2-user/NEW_GIT_REPO/cdk-pipelines-demo-new/node_modules/@aws-cdk/aws-lambda/lib/lambda-version.ts:186:21)",
               "Function.get currentVersion [as currentVersion] (/home/ec2-user/NEW_GIT_REPO/cdk-pipelines-demo-new/node_modules/@aws-cdk/aws-lambda/lib/function.ts:339:28)",
